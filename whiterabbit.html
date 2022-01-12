@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title> Strawberry&Rabbit</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap" rel="stylesheet">
+        <link href="https://raw.githubusercontent.com/buppagi/webfonts/master/css/NanumBarunGothic.min.css" rel="stylesheet" type="text/css" />
+
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/logo.png" />
+        <!-- Bootstrap icons-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+
+        <style>
+            *{font-family: 'Gowun Dodum', sans-serif;}
+             .mainlogo {
+                 margin-top: 15px;
+                margin-bottom: 3px;
+                width: 120px;
+                height: 33px;
+             }
+           #ash{
+               margin-top: -10px;
+           }
+      #ex{
+          margin-top: -100px;
+      }
+             </style>
+        <body>
+             <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-light" style="background-color:rgb(248,193,184);">
+            <div class="container px-4 px-lg-5">
+                <a class="navbar-brand" href="index.html" > <img src="assets/pinklogo.png" style="width:100px; height:40px"> </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4">
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="brand.html">Brand</a></li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link active dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Shop</a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="Shop.html">All Products</a></li>
+                                <li><hr class="dropdown-divider" /></li>
+                                <li><a class="dropdown-item" href="toesocks.html"> Toe Socks</a></li>
+                                <li><a class="dropdown-item" href="middlesocks.html">Middle Socks</a></li>
+                                <li><a class="dropdown-item" href="kneesocks.html">Knee Socks</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <button onclick= "location.href='#!'" class="btn btn-outline-white" type="button"> <i class="bi-cart-fill me-1"></i>
+                        </button>
+                        <button onclick= "location.href='#!'" class="btn btn-outline-white" type="button">
+                            <i class="bi bi-person-fill"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+               
+            <section class="py-5 px-lg-5">
+                <div class="container px-4 px-lg-5 my-5">
+                    <div class="row gx-4 gx-lg-5 align-items-center">
+                        <div class="col-lg-6"> 
+                            <img src = "assets/white1.jpg" id= "ash" style="width:600px; height: 600px;">
+                        </div>
+                        <div class="col-lg-6" id = "ex">
+                            <div class="small mb-1">Knee Socks </div>
+                            <h1 class="display-5 fw-bolder"> Knee Socks <br> Strawberry & Rabbit (white)</h1> 
+                                <div class="fs-5 mb-5"> 
+            
+                                <br>
+                                  <span>11$</span>
+                            </div>
+                        
+                            <p class="lead">
+                                
+                                These are soft knee socks used fine cotton yarn. <Br>
+                                You can put them on lightly. <br>
+                                With non-slip silicons, it improves grip when exercising.<br>
+                                <br>
+                                </p>
+                            <div class="d-flex">
+                                <input class="form-control text-center me-3" id="inputQuantity" type="num" value="1" style="max-width: 3rem" />
+                                <button class="btn btn-outline-dark flex-shrink-0" type="button">
+                                    <i class="bi-cart-fill me-1"></i>
+                                    Add to cart
+                                </button>
+                            </div>
+                            </div>
+                        </div>
+                </div>
+                <script>
+                    var myimage=document.getElementById("ash");
+                    var imgArray=["assets/white1.jpg","assets/white2.jpg"];
+                    var i=0;
+
+                    function changeImage(){
+                        if(i >= imgArray.length){
+                            i = 0;
+                        }
+                        myimage.setAttribute("src",imgArray[i]);
+                        i++;
+                      
+                    }
+                    setInterval(changeImage,1500);
+                </script>
+            </section>
+            </section>
+
+<br>
+<br>
+<br>
+            <section class="py-5">
+                <div class = "container px-4 px-lg-5 mt-5">
+                    <br>
+                    <h1 class="mb-5 text-center fw-bolder"> Detailed Explanation</h2>
+                        <br>
+                        <div class="text-center">
+                    <img src="assets/white detail.jpg">
+                    <img src="assets/white2.jpg" style="width: 70%;">
+                    <img src="assets/violet2.jpg" style="width: 70%;">
+                    <img src="assets/rabbitblack2.jpg" style="width: 70%;" >
+                </div>
+                </div>
+                    </div>
+            </section>
+            <style>
+                #detail{
+                    border:1px dotted;  
+                    color:white;
+                    font-size: 15px;
+                    position: relative;
+                    float:left
+               }
+               #detail2{
+        
+                border:1px dotted;  
+                    color:white;
+                    font-size: 15px;
+                   position: absolute;
+                   margin-left:300px;
+              
+               }
+         
+            </style>
+                    <!-- Footer-->
+                    <footer class="py-5" style="background-color: rgb(248,193,184);">
+                        <div class="container"  >
+                            <div id="detail" style="width:300px; height:80px">
+                                &nbsp;LORINA / CEO 김연수<br>
+                                &nbsp;T 02 - 6956 - 0440 / F 0504 - 375 - 4406
+                                <br>  &nbsp;MYLORINA@naver.com<br>
+                            </div>
+                            <div id="detail2" style="width:550px; height:80px">
+                                &nbsp;Head office / 23, Doksan-ro 50-gil, Geumcheon-gu, Seoul, Republic of Korea<br>
+                                &nbsp;Branch / 12, Gaetbeol-ro, Yeonsu-gu, Incheon, Republic of Korea <br>
+                                &nbsp;BUSINESS LICENSE 244-08-01376 / 2020-서울금천-2548              
+                            </div>
+                            <br>
+                                    <h6  style="margin-top: 100px; margin-left: 580px; color: white;">Copyright &copy; Lorina</h6>
+                        </div>
+                    </footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
