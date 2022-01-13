@@ -86,13 +86,42 @@
           
               article{
                   float:left;
-                  margin-left: 20px;
+                 
                   margin-bottom: 150px;
               }
               img{
                 display:block;
               }
-            
+              @media screen and (max-width:1400px){
+                .mainlogo{
+                      margin-left: -150px;
+                  }
+
+                  img{
+                      width:300px;
+                      height:300px;
+                  }
+                  #sub{
+                      font-size: 10px;
+                  }
+                  .submoney{
+                      font-size: 10px;
+                  }
+                  #title{
+                      font-size: 14px;
+                  }
+                  .money {
+                      font-size: 14px;
+                  }
+                  .swiper-slide img{
+                      width: 180px;
+                      height: 180px;
+                  }
+                  .list{
+                      font-size: 13px;
+                  }
+                
+              }
                 </style>
             </head>
     <body>
@@ -140,7 +169,7 @@
         
         <hr class="hr1" size="3px" >
 
-        <iframe width="100%" height="815" src="https://www.youtube.com/embed/Y6s3dB3yu5E?autoplay=1&mute=1&controls=0&loop=1&playlist=Y6s3dB3yu5E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="margin-top:-15px;margin-bottom: 400px;"></iframe>
+        <iframe width="100%" height="815" src="https://www.youtube.com/embed/FeJKh22YsKA?autoplay=1&mute=1&controls=0&loop=1&playlist=FeJKh22YsKA" allowfullscreen style="margin-top:-15px;margin-bottom: 400px;"></iframe>
 
         <div class="text-center" style="border:3px solid; padding:2%; color:rgb(255, 203, 199); ">
             <h2>BEST SELLER</h2>
@@ -158,10 +187,10 @@
             <article>
             <a href="ribbon&lace.html"><img class="ribbonlace" src="assets/opentoe ribbon1.jpg" onmouseover="src='assets/opentoe ribbon2.jpg'"
               onmouseout="src='assets/opentoe ribbon1.jpg'"alt="Open toe Ribbon & Lace" /></a>
-              <h6 class=" fw-bolder">
+              <h6 class=" fw-bolder" id="sub">
                 <br>Open Toe Ribbon & Lace 
             </h6>
-            <h6 >
+            <h6 class="submoney" >
                 11$
             </h6>
             </article>
@@ -172,11 +201,11 @@
             <a href="covertoe x.html">
             <img class="cover toe X" src="assets/covertoe x1.jpg"  onmouseover="src='assets/covertoe x2.jpg'"  
             onmouseout="src='assets/covertoe x1.jpg'" alt="covertoe X band"/></a>
-            <h6 class=" fw-bolder">
+            <h6 class=" fw-bolder" id="sub">
                 <br>Cover Toe X 
             </h6>
-            <h6 >
-               11$
+            <h6  class="submoney">
+                11$
             </h6>
         </article>
         </div>
@@ -186,10 +215,10 @@
             <a href="overkneegrey.html">
             <img class="card-img-top" src="assets/grey1.jpg" onmouseover="src='assets/grey2.jpg'" 
              onmouseout="src='assets/grey1.jpg'" alt="..." /></a>
-             <h6 class=" fw-bolder">
+             <h6 class=" fw-bolder" id="sub"> 
                 <br>Over Knee Two Tone Color (Grey)
             </h6>
-            <h6 >
+            <h6 class="submoney">
                 11$
             </h6>
             </article>
@@ -200,10 +229,10 @@
             <a href="flowerBomb.html">
             <img class="flowerBomb" src="assets/flowerBomb1.jpg"  onmouseover="src='assets/flowerBomb2.jpg'"
               onmouseout="src='assets/flowerBomb1.jpg'" alt="..." /></a>
-              <h6 class=" fw-bolder">
+              <h6 class=" fw-bolder" id="sub">
                 <br>Middle Socks Flower Bomb
             </h6>
-            <h6 >
+            <h6 class="submoney" >
                 11$
             </h6>
             </article>
@@ -214,10 +243,10 @@
             <a href="blackrabbit.html">
             <img class="rabbit black" src="assets/rabbitblack1.jpg"  onmouseover="src='assets/rabbitblack2.jpg'"
             onmouseout="src='assets/rabbitblack1.jpg'" alt="..." /></a> 
-            <h6 class=" fw-bolder">
+            <h6 class=" fw-bolder" id="sub">
                 <br>Knee Socks Strawberry & Rabbit (Black)
             </h6>
-            <h6 >
+            <h6 class="submoney">
                 11$
             </h6>
         </article> </div>
@@ -227,10 +256,10 @@
             <a href="wine.html">
             <img class="wine" src="assets/wine1.jpg"  onmouseover="src='assets/wine2.jpg'"
             onmouseout="src='assets/wine1.jpg'" alt="..." /></a>
-            <h6 class=" fw-bolder">
+            <h6 class=" fw-bolder" id="sub">
                 <br>Juicy Line Middle Socks (Wine & Beige)
             </h6>
-            <h6 >
+            <h6 class="submoney" >
                 11$
             </h6>
         </article>
@@ -241,10 +270,10 @@
             <a href="blackswan.html">
             <img class="swan" src="assets/swan1.jpg"  onmouseover="src='assets/swan2.jpg'"
             onmouseout="src='assets/swan1.jpg'" alt="..." /></a>
-            <h6 class=" fw-bolder">
+            <h6 class=" fw-bolder" id="sub">
                 <br> Middle Socks BlackSwan
             </h6>
-            <h6 >
+            <h6 class="submoney" >
                 11$
             </h6>
         </article></div>
@@ -254,10 +283,10 @@
             <a href="leopard.html">
             <img class="line band" src="assets/leopard1.jpg"  onmouseover="src='assets/leopard2.jpg'"
             onmouseout="src='assets/leopard1.jpg'" alt="..." /></a>
-            <h6 class=" fw-bolder">
+            <h6 class=" fw-bolder" id="sub">
                 <br> Cover Toe Line Band (Leopard)
             </h6>
-            <h6 >
+            <h6 class="submoney">
                 11$
             </h6>
         </article></div>
@@ -314,103 +343,104 @@ moveleft();
 </div>
 
 <div class ="text-center">
-    <a href="toesocks.html" style="text-decoration-line: none; color:black"> TOE SOCKS</a> &nbsp;&nbsp;
-    <a href="middlesocks.html" style="text-decoration-line: none; color:black"> MIDDLE SOCKS</a>&nbsp;&nbsp;
-    <a href="kneesocks.html" style="text-decoration-line: none; color:black"> KNEE SOCKS</a>
+    <a href="toesocks.html" style="text-decoration-line: none; color:black" class="list"> TOE SOCKS</a> &nbsp;&nbsp;
+            <a href="middlesocks.html" style="text-decoration-line: none; color:black" class="list"> MIDDLE SOCKS</a>&nbsp;&nbsp;
+            <a href="kneesocks.html" style="text-decoration-line: none; color:black" class="list"> KNEE SOCKS</a>
 </div>
 
 <div class="container">
 <div class="row" style="margin-top:50px;">
     <div class="col-6 col-md-4">
-    <article><a href="brown.html"><img src="assets/brown1.jpg"   onmouseover="src='assets/brown2.jpg'"
-        onmouseout="src='assets/brown1.jpg'"width="400" height="400"></a>
-        <div class ="text-center">
-            <br>
-            <h5 class="fw-bolder">Juicy Line Middle Socks (Grey & Brown)  </h5>
-              <h5>11$</h5>
-        </div></article>
-        </div>
-       
-    <div class="col-6 col-md-4">
-        <article><a href="blackwhite.html"><img src="assets/bw1.jpg"   onmouseover="src='assets/bw2.jpg'"
-        onmouseout="src='assets/bw1.jpg'"width="400" height="400"></a>
-        <div class ="text-center">
-            <br>
-            <h5 class="fw-bolder">Reflective Sheet Socks (Black&White) </h5>
-              <h5>11$</h5>
-        </div></article>
-        </div>
-        <div class="col-6 col-md-4">   
-    <article> <a href="overkneegrey.html"><img src="assets/grey1.jpg" onmouseover="src='assets/grey2.jpg'"
-        onmouseout="src='assets/grey1.jpg'" width="400" height="400">
-    </a>
-    <div class ="text-center">
-        <br>
-        <h5 class="fw-bolder">Over Knee Two Tone Color (Dust Grey) </h5>
-          <h5>11$</h5>
-    </div>
-</article>
-</div>
+        <article><a href="brown.html"><img src="assets/brown1.jpg"   onmouseover="src='assets/brown2.jpg'"
+            onmouseout="src='assets/brown1.jpg'"width="400" height="400"></a>
+            <div class ="text-center">
+                <br>
+                <h5 class="fw-bolder" id="title">Juicy Line Middle Socks (Grey & Brown)  </h5>
+                  <h5 class="money">11$</h5>
+            </div></article>
+            </div>
 
-<div class="col-6 col-md-4">
-    <article><a href="overkneepeach.html"><img src="assets/peach1.jpg" onmouseover="src='assets/peach2.jpg'"
-        onmouseout="src='assets/peach1.jpg'"width="400" height="400"></a>
-        <div class ="text-center">
-            <br>
-            <h5 class="fw-bolder">Over Knee Two Tone Color (Peach Brown) </h5>
-              <h5>11$</h5>
-        </div></article>
-        </div>
-        <div class="col-6 col-md-4">
-    <article><a href="overkneegreen.html"><img src="assets/green1.jpg" onmouseover="src='assets/green2.jpg'"
-        onmouseout="src='assets/green1.jpg'"width="400" height="400"></a>
-        <div class ="text-center">
-            <br>
-            <h5 class="fw-bolder">Over Knee Solid Color (Green)  </h5>   
-              <h5>11$</h5>
-        </div>
-    </article>
-    </div>
+            <div class="col-6 col-lg-4">
+                <article><a href="blackwhite.html"><img src="assets/bw1.jpg"   onmouseover="src='assets/bw2.jpg'"
+             onmouseout="src='assets/bw1.jpg'"width="400" height="400"></a>
+             <div class ="text-center">
+                 <br>
+                 <h5 class="fw-bolder" id="title">Reflective Sheet Socks (Black&White) </h5>
+                   <h5 class="money">20$</h5>
+             </div></article>
+             </div>
+         
+         <div class="col-6 col-lg-4">
+             <article> <a href="overkneegrey.html"><img src="assets/grey1.jpg" onmouseover="src='assets/grey2.jpg'"
+         onmouseout="src='assets/grey1.jpg'" width="400" height="400">
+     </a>
+     <div class ="text-center">
+         <br>
+         <h5 class="fw-bolder" id="title">Over Knee Two Tone Color (Dust Grey) </h5>
+           <h5 class="money">11$</h5>
+     </div>
+ </article>
+ </div>
 
-    <div class="col-6 col-md-4">
-        <article><a href="overkneeblack.html"><img src="assets/overblack1.jpg" onmouseover="src='assets/overblack2.jpg'"
-        onmouseout="src='assets/overblack1.jpg'" width="400" height="400"></a>
-        <div class ="text-center">
-            <br>
-            <h5 class="fw-bolder">Over Knee Solid Color (Black)  </h5>
-              <h5>11$</h5>
-        </div>
-    </article>
-    </div>
+ <div class="col-6 col-lg-4">
+      <article><a href="overkneepeach.html"><img src="assets/peach1.jpg" onmouseover="src='assets/peach2.jpg'"
+         onmouseout="src='assets/peach1.jpg'"width="400" height="400"></a>
+         <div class ="text-center">
+             <br>
+             <h5 class="fw-bolder" id="title">Over Knee Two Tone Color (Peach Brown) </h5>
+               <h5 class="money">11$</h5>
+         </div></article>
+         </div>
 
-    <div class="col-6 col-md-4">
-        <article><a href="whiterabbit.html"><img src="assets/white1.jpg"onmouseover="src='assets/white2.jpg'"
-        onmouseout="src='assets/white1.jpg'" width="400" height="400"></a>
-        <div class ="text-center">
-            <br>
-            <h5 class="fw-bolder"> Knee Socks Strawberry & Rabbit (White) </h5>
-              <h5>11$</h5>
-        </div></article>
-        </div>
+         <div class="col-6 col-lg-4">
+             <article><a href="overkneegreen.html"><img src="assets/green1.jpg" onmouseover="src='assets/green2.jpg'"
+         onmouseout="src='assets/green1.jpg'"width="400" height="400"></a>
+         <div class ="text-center">
+             <br>
+             <h5 class="fw-bolder" id="title">Over Knee Solid Color (Green)  </h5>   
+               <h5 class="money">11$</h5>
+         </div>
+     </article>
+     </div>
 
-        <div class="col-6 col-md-4">
-            <article><a href="blackrabbit.html"><img src="assets/rabbitblack1.jpg"  onmouseover="src='assets/rabbitblack2.jpg'"
-        onmouseout="src='assets/rabbitblack1.jpg'" width="400" height="400"></a>
-        <div class ="text-center">
-            <br>
-            <h5 class="fw-bolder">Knee Socks Strawberry & Rabbit (Black) </h5>
-              <h5>11$</h5>
-        </div></article>
-        </div>
-        
-        <div class="col-6 col-md-4">
-            <article><a href="violet.html"><img src="assets/violet1.jpg"   onmouseover="src='assets/violet2.jpg'"
-        onmouseout="src='assets/violet1.jpg'"width="400" height="400"></a>
-        <div class ="text-center">
-            <br>
-            <h5 class="fw-bolder">Knee Socks Strawberry & Rabbit (Violet) </h5>
-              <h5>11$</h5>
-        </div></article>
+     <div class="col-6 col-lg-4">
+         <article><a href="overkneeblack.html"><img src="assets/overblack1.jpg" onmouseover="src='assets/overblack2.jpg'"
+         onmouseout="src='assets/overblack1.jpg'" width="400" height="400"></a>
+         <div class ="text-center">
+             <br>
+             <h5 class="fw-bolder" id="title">Over Knee Solid Color (Black)  </h5>
+               <h5 class="money">11$</h5>
+         </div></article>
+         </div>
+
+     <div class="col-6 col-lg-4">
+         <article><a href="whiterabbit.html"><img src="assets/white1.jpg"onmouseover="src='assets/white2.jpg'"
+         onmouseout="src='assets/white1.jpg'" width="400" height="400"></a>
+         <div class ="text-center">
+             <br>
+             <h5 class="fw-bolder" id="title"> Knee Socks Strawberry & Rabbit (White) </h5>
+               <h5 class="money">11$</h5>
+         </div></article>
+         </div>
+
+         <div class="col-6 col-lg-4">
+             <article><a href="blackrabbit.html"><img src="assets/rabbitblack1.jpg"  onmouseover="src='assets/rabbitblack2.jpg'"
+         onmouseout="src='assets/rabbitblack1.jpg'" width="400" height="400"></a>
+         <div class ="text-center">
+             <br>
+             <h5 class="fw-bolder" id="title">Knee Socks Strawberry & Rabbit (Black) </h5>
+               <h5 class="money">11$</h5>
+         </div></article>
+         </div>
+         
+         <div class="col-6 col-lg-4">
+             <article><a href="violet.html"><img src="assets/violet1.jpg"   onmouseover="src='assets/violet2.jpg'"
+         onmouseout="src='assets/violet1.jpg'"width="400" height="400"></a>
+         <div class ="text-center">
+             <br>
+             <h5 class="fw-bolder" id="title">Knee Socks Strawberry & Rabbit (Violet) </h5>
+               <h5 class="money">11$</h5>
+         </div></article>
         </div>
 </div>
 </div>
@@ -454,7 +484,7 @@ moveleft();
                 &nbsp;BUSINESS LICENSE 244-08-01376 / 2020-서울금천-2548              
             </div>
             <br>
-             <h6  style="margin-top: 100px; margin-left: 580px; color: white;">Copyright &copy; Lorina</h6>
+             <h6 class="copy" style="margin-top: 100px; margin-left: 580px; color: white;">Copyright &copy; Lorina</h6>
         </div>
     </footer>
         <!-- Bootstrap core JS-->

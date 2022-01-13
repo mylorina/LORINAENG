@@ -35,16 +35,22 @@
                 margin-left:550px;
                 color:rgb(43, 41, 40);
                 padding:10px;
-           
              }
-             #pic{
-          margin-left: 150px;
-          margin-top:-30px;
-          position: absolute;
-          width:650px;
-          height: 650px;
+             @media screen and (max-width:1960px)
+             {
+                 img{
+                     width:1000px;
+                     height:600px;
+                 }
+             }
+            
+      @media screen and (max-width:1400px){
+          img{
+              width:800px;
+              height: 500px;
+          }
       }
-     
+
              </style>
         <body>
              <!-- Navigation-->
@@ -78,24 +84,20 @@
         </nav>
 
             <section class = "py-5">
-
+            
              <div class="text-center">
                        <h2 class="fw-bolder" style="font-family: Tahoma;">About Lorina</h2>
-                   </div>
-
-                    <div class = "container px-4 px-lg-5 mt-5">
-                        <br>
-                        <br>
-                    <img src="assets/brand1.jpg" id="brand" style="width:1200px">
-                    <img src="assets/brand2.jpg" id="brand" style="width:1200px">
-                    <img src="assets/brand3.jpg" id="brand" style="width:1200px">
-                    <img src="assets/brand4.jpg" id="brand" style="width:1200px">
-                    <img src="assets/brand13.jpg" id="brand" style="width:1200px">
-                    <img src="assets/brand14.jpg" id="brand" style="width:1200px">
+            </div>
+                   
+                   <div class="text-center">
+                    <img src="assets/brand1.jpg" id="brand" >
+                    <img src="assets/brand2.jpg" id="brand" >
+                    <img src="assets/brand3.jpg" id="brand" >
+                    <img src="assets/brand4.jpg" id="brand" >
+                    <img src="assets/brand13.jpg" id="brand" >
+                    <img src="assets/brand14.jpg" id="brand" >
                     </div>
-             
-             
-                    </section>
+            </section>
 
                     <style>
                         #detail{

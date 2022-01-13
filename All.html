@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title> View All Products</title>
+        <title> View All Products </title>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap" rel="stylesheet">
@@ -26,12 +26,46 @@
                 width: 120px;
                 height: 33px;
              }
-       
-  #ash{
-      margin-top:-10px;
-  }
+         #ash{
+            margin-top: -10px;
+             width: 600px;
+            height:600px;
+         }
       #ex{
           margin-top: -100px;
+      }
+      .title {
+        font-size: 40px; 
+        font-weight:900;
+      }
+      .sub {
+          font-size: 15px;
+      }
+      @media screen and (max-width:1400px){
+          .detail{
+              width:800px;
+              height:500px;
+          }
+    #ash{
+        bottom: initial;
+        width:460px;
+        height:460px;
+        margin-top:-50px;  
+    }
+  #ex{
+      padding-left: 120px;
+        margin-top: -20px;  
+  }
+  .sub {
+          font-size: 0.7rem;
+      }
+
+.title{
+    font-size: 1.8rem;
+}
+.lead{
+    font-size: 0.9rem;
+}
       }
              </style>
         <body>
@@ -55,28 +89,26 @@
                         </li>
                     </ul>
                     <form class="d-flex">
-                        <button onclick= "location.href='cart.html'" class="btn btn-outline-white" type="button">
-                            <i class="bi-cart-fill me-1"></i>
+                        <button onclick= "location.href='#!'" class="btn btn-outline-white" type="button"> <i class="bi-cart-fill me-1"></i>
                         </button>
-                        <button onclick= "location.href='login.html'" class="btn btn-outline-white" type="button">
+                        <button onclick= "location.href='#!'" class="btn btn-outline-white" type="button">
                             <i class="bi bi-person-fill"></i>
                         </button>
                     </form>
                 </div>
             </div>
         </nav>
-           
-           
+            
+
             <section class="py-5 px-lg-5">
                 <div class="container px-4 px-lg-5 my-5">
                     <div class="row gx-4 gx-lg-5 align-items-center">
-                        <div class="col-lg-6">
-                            <img src = "assets/allproduct.gif" id= "ash" style="width:600px; height: 600px;">
-                         </div>
-                        <div class="col-lg-6" id = "ex">
-                            <div class="small mb-1">View All Products </div>
-                            <h1 class="display-5 fw-bolder"> All Products</h1> 
-                                <div class="fs-5 mb-5"> 
+                        <div class="col-md-6">
+                            <img src = "assets/allproduct.gif" class="pic" id= "ash" > </div>
+                        <div class="col-md-6" id = "ex">
+                            <div class="sub">View All Products </div>
+                            <h1 class="title">All Products</h1> 
+                            <div class="fs-5 mb-5"> 
                                 <br>
                                   <span>11$</span>
                             </div>
@@ -99,7 +131,6 @@
                             </div>
                         </div>
                 </div>
-          
             </section>
 
 <br>
@@ -110,15 +141,17 @@
                     <br>
                     <h1 class="mb-5 text-center fw-bolder"> Detailed Explanation</h2>
                         <br>
-                        <img src="assets/brand4.jpg" style="width:1200px">
-                    <img src="assets/brand5.jpg" style="width:1200px">
-                    <img src="assets/brand6.jpg" style="width:1200px">
-                    <img src="assets/brand7.jpg" style="width:1200px">
-                    <img src="assets/brand8.jpg" style="width:1200px">
-                    <img src="assets/brand9.jpg" style="width:1200px">
-                    <img src="assets/brand10.jpg" style="width:1200px">
-                    <img src="assets/brand11.jpg"style="width:1200px">
-                    <img src="assets/brand12.jpg" style="width:1200px">
+                    <div class="text-center">
+                    <img  class="detail" src="assets/brand4.jpg">
+                    <img class="detail" src="assets/brand5.jpg">
+                    <img class="detail" src="assets/brand6.jpg">
+                    <img class="detail" src="assets/brand7.jpg">
+                    <img class="detail" src="assets/brand8.jpg">
+                    <img class="detail" src="assets/brand9.jpg">
+                    <img class="detail" src="assets/brand10.jpg">
+                    <img  class="detail" src="assets/brand11.jpg">
+                    <img class="detail" src="assets/brand12.jpg">
+                </div>
                     </div>
             </section>
             <style>
